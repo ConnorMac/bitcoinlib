@@ -37,7 +37,6 @@ except:
 kwargs = {}
 
 install_requires = [
-      'requests==2.25.1',
       'fastecdsa==2.1.5;platform_system!="Windows"',
       'ecdsa==0.16;platform_system=="Windows"',
       'pyaes==1.6.1',
